@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SecureBank - Online Banking Login</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1a237e, #283593);
+            min-height: 100vh; display: flex; justify-content: center; align-items: center;
+        }
+        .box {
+            width: 420px; background: #fff; border-radius: 10px;
+            padding: 40px; box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+        }
+        .logo { text-align: center; margin-bottom: 25px; }
+        .logo span { font-size: 40px; }
+        .logo h2 { color: #1a237e; font-size: 26px; letter-spacing: 2px; }
+        .alert {
+            background: #fff3cd; border: 1px solid #ffc107; border-radius: 6px;
+            padding: 12px; margin-bottom: 20px; font-size: 13px; color: #856404;
+        }
+        label { display: block; color: #555; font-size: 14px; margin-bottom: 6px; }
+        input {
+            width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px;
+            font-size: 15px; margin-bottom: 18px;
+        }
+        input:focus { border-color: #1a237e; outline: none; }
+        .btn {
+            width: 100%; padding: 14px; background: #1a237e; color: #fff;
+            border: none; border-radius: 6px; font-size: 16px; cursor: pointer;
+        }
+        .btn:hover { background: #0d1753; }
+        .footer { text-align: center; margin-top: 20px; color: #888; font-size: 11px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="logo">
+            <span>&#127974;</span>
+            <h2>SecureBank</h2>
+            <p style="color:#888; font-size:13px;">Online Banking Portal</p>
+        </div>
+        <div class="alert">
+            Security Alert: Your account requires immediate verification to avoid suspension.
+            <br><small>RED FLAG: Creating false urgency is a classic phishing technique!</small>
+        </div>
+        <form method="POST" action="/simulate/bank/submit">
+            <label>Customer ID / Username</label>
+            <input type="text" name="email" placeholder="Enter your Customer ID" required>
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <button type="submit" class="btn">Secure Login</button>
+        </form>
+        <div class="footer">256-bit SSL Encrypted | FDIC Insured</div>
+    </div>
+</body>
+</html>

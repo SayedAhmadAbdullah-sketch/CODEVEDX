@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Security Update Required</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif; background: #f5f5f5;
+            min-height: 100vh; display: flex; justify-content: center; align-items: center;
+        }
+        .box {
+            width: 600px; background: #fff; border-radius: 8px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1); overflow: hidden;
+        }
+        .header { background: #0078d4; padding: 20px 30px; color: #fff; }
+        .header span { font-size: 18px; font-weight: 600; }
+        .body { padding: 30px; }
+        .body h2 { color: #333; margin-bottom: 15px; }
+        .body p { color: #555; line-height: 1.7; margin-bottom: 15px; }
+        .urgent {
+            background: #fff3cd; border-left: 4px solid #ffc107;
+            padding: 15px; margin: 20px 0;
+        }
+        .urgent strong { color: #856404; }
+        .form-box {
+            background: #f8f9fa; padding: 25px; border-radius: 8px; margin-top: 20px;
+        }
+        .form-box h3 { margin-bottom: 15px; color: #333; }
+        .form-box input {
+            width: 100%; padding: 12px; margin-bottom: 12px;
+            border: 1px solid #ddd; border-radius: 6px; font-size: 14px;
+        }
+        .form-box button {
+            background: #0078d4; color: #fff; border: none; padding: 12px 30px;
+            border-radius: 6px; font-size: 14px; cursor: pointer;
+        }
+        .email-footer {
+            padding: 20px 30px; border-top: 1px solid #eee;
+            color: #999; font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="header">
+            <span>Mail Service Security Team</span>
+        </div>
+        <div class="body">
+            <h2>Immediate Action Required: Account Security Update</h2>
+            <p>Dear Valued Customer,</p>
+            <p>We have detected suspicious activity on your email account.
+            For your security, we require you to verify your identity immediately.</p>
+            <div class="urgent">
+                <strong>Your account will be suspended in 24 hours if not verified.</strong>
+                <br><small>RED FLAG: Creating false urgency and time pressure</small>
+            </div>
+            <div class="form-box">
+                <form method="POST" action="/simulate/email_update/submit">
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    <input type="password" name="password" placeholder="Confirm your password" required>
+                    <button type="submit">Verify My Account</button>
+                </form>
+            </div>
+            <p style="margin-top:15px; font-size:13px; color:#888;">
+                RED FLAG: Generic greeting "Dear Valued Customer" and requesting password via email
+            </p>
+        </div>
+        <div class="email-footer">
+            This is an automated message. &copy; 2024 Mail Services Inc.
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Awareness Training</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; color: #333; }
+        .hero {
+            background: linear-gradient(135deg, #0d47a1, #1565c0);
+            color: white; padding: 50px 20px; text-align: center;
+        }
+        .hero h1 { font-size: 32px; }
+        .hero p { font-size: 18px; opacity: 0.9; margin-top: 10px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 30px 20px; }
+        .card {
+            background: white; border-radius: 12px; padding: 30px;
+            margin-bottom: 25px; box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        .card h2 { color: #0d47a1; margin-bottom: 15px; border-bottom: 2px solid #e3f2fd; padding-bottom: 10px; }
+        .card h3 { color: #1565c0; margin: 15px 0 10px; }
+        .card p { margin-bottom: 10px; color: #555; }
+        .card ul { padding-left: 25px; margin-bottom: 15px; }
+        .card li { margin-bottom: 8px; color: #555; }
+        .highlight {
+            background: #e8f5e9; border-left: 4px solid #2e7d32;
+            padding: 15px; border-radius: 4px; margin: 15px 0;
+        }
+        .danger {
+            background: #fce4ec; border-left: 4px solid #c62828;
+            padding: 15px; border-radius: 4px; margin: 15px 0;
+        }
+        .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin: 20px 0; }
+        .stat { background: #e3f2fd; padding: 20px; border-radius: 8px; text-align: center; }
+        .stat .n { font-size: 28px; font-weight: bold; color: #0d47a1; }
+        .stat .d { font-size: 13px; color: #666; margin-top: 5px; }
+        .back {
+            display: inline-block; margin-top: 20px; background: #0d47a1;
+            color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Phishing Awareness Training</h1>
+        <p>Scenario: {{ info.name }} | Risk: {{ info.risk }}</p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>What is Phishing?</h2>
+            <p>Phishing is a cyberattack where attackers impersonate legitimate organizations to steal sensitive information.</p>
+            <div class="stats">
+                <div class="stat"><div class="n">91%</div><div class="d">of attacks start with phishing</div></div>
+                <div class="stat"><div class="n">$4.76M</div><div class="d">average breach cost</div></div>
+                <div class="stat"><div class="n">3.4B</div><div class="d">phishing emails daily</div></div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Red Flags</h2>
+            <ul>
+                <li><strong>Suspicious URL</strong> - Not the legitimate domain</li>
+                <li><strong>Generic Greeting</strong> - "Dear Customer" not your name</li>
+                <li><strong>False Urgency</strong> - "Account suspended in 24 hours!"</li>
+                <li><strong>Credential Request</strong> - Asking for passwords via email</li>
+                <li><strong>Grammar Errors</strong> - Subtle spelling mistakes</li>
+                <li><strong>Mismatched Links</strong> - Display link vs actual destination differ</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Types of Phishing</h2>
+            <h3>1. Email Phishing</h3><p>Mass emails impersonating companies.</p>
+            <h3>2. Spear Phishing</h3><p>Targeted attacks using personal info.</p>
+            <h3>3. Whaling</h3><p>Targeting executives (CEOs, CFOs).</p>
+            <h3>4. Clone Phishing</h3><p>Exact copies of legitimate emails.</p>
+            <h3>5. Smishing</h3><p>Phishing via SMS text messages.</p>
+            <h3>6. Vishing</h3><p>Phishing via phone calls.</p>
+        </div>
+        <div class="card">
+            <h2>Protection Checklist</h2>
+            <ul>
+                <li>Always check the URL before entering credentials</li>
+                <li>Look for HTTPS padlock icon</li>
+                <li>Never click suspicious links - go directly to the website</li>
+                <li>Enable Two-Factor Authentication (2FA) on all accounts</li>
+                <li>Use a password manager</li>
+                <li>Verify sender's email address</li>
+                <li>Be suspicious of urgent/threatening language</li>
+                <li>Report suspicious emails to your IT team</li>
+                <li>Keep browser and antivirus updated</li>
+                <li>Use email filtering and anti-phishing tools</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Technical Detection</h2>
+            <div class="highlight"><strong>URL Analysis:</strong> Check domain registration, WHOIS, DNS records.</div>
+            <div class="highlight"><strong>Email Headers:</strong> Examine SPF, DKIM, DMARC records.</div>
+            <div class="highlight"><strong>SSL Certificate:</strong> Verify certificate issuer and validity.</div>
+            <div class="danger"><strong>Remember:</strong> This was educational. Real phishing causes identity theft and financial loss.</div>
+        </div>
+        <div style="text-align:center;">
+            <a href="/" class="back">Back to Dashboard</a>
+            <a href="/report" class="back" style="background:#2e7d32;">View Report</a>
+        </div>
+    </div>
+</body>
+</html>

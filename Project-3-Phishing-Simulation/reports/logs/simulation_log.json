@@ -1,0 +1,410 @@
+[
+  {
+    "scenario": "email_update",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T14:25:10.945090",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "email_update",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T14:25:28.573485",
+      "referrer": "http://127.0.0.1:5000/simulate/email_update"
+    },
+    "data": {
+      "email": "XJTRDSDJTRC@GMAIL.COM",
+      "password_masked": "********************",
+      "password_length": 20
+    }
+  },
+  {
+    "scenario": "email_update",
+    "action": "warning_shown",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T14:25:34.413886",
+      "referrer": "http://127.0.0.1:5000/simulate/email_update/submit"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "google",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:09:40.338214",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "google",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:10:38.612530",
+      "referrer": "http://127.0.0.1:5000/simulate/google"
+    },
+    "data": {
+      "email": "XCZSWRF@GMAIL.COM",
+      "password_masked": "*********",
+      "password_length": 9
+    }
+  },
+  {
+    "scenario": "bank",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:11:27.750001",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "bank",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:11:39.432394",
+      "referrer": "http://127.0.0.1:5000/simulate/bank"
+    },
+    "data": {
+      "email": "AEHJETRNFXC",
+      "password_masked": "***********",
+      "password_length": 11
+    }
+  },
+  {
+    "scenario": "email_update",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:12:07.317439",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "email_update",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:12:14.949294",
+      "referrer": "http://127.0.0.1:5000/simulate/email_update"
+    },
+    "data": {
+      "email": "sydabdull@student.iul.ac.in",
+      "password_masked": "**************",
+      "password_length": 14
+    }
+  },
+  {
+    "scenario": "email_update",
+    "action": "warning_shown",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:12:27.629700",
+      "referrer": "http://127.0.0.1:5000/simulate/email_update/submit"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "google",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:30:52.893586",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "google",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:31:06.892356",
+      "referrer": "http://127.0.0.1:5000/simulate/google"
+    },
+    "data": {
+      "email": "safsbgf@gmail.com",
+      "password_masked": "*************",
+      "password_length": 13
+    }
+  },
+  {
+    "scenario": "bank",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:31:17.385623",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "bank",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:31:22.267254",
+      "referrer": "http://127.0.0.1:5000/simulate/bank"
+    },
+    "data": {
+      "email": "dzxgsz",
+      "password_masked": "***********",
+      "password_length": 11
+    }
+  },
+  {
+    "scenario": "bank",
+    "action": "warning_shown",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:31:27.029963",
+      "referrer": "http://127.0.0.1:5000/simulate/bank/submit"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "email_update",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:31:34.962423",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "email_update",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:32:02.634460",
+      "referrer": "http://127.0.0.1:5000/simulate/email_update"
+    },
+    "data": {
+      "email": "bavswfdghf@gmail.com",
+      "password_masked": "********",
+      "password_length": 8
+    }
+  },
+  {
+    "scenario": "email_update",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:32:15.620423",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "email_update",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:32:20.175582",
+      "referrer": "http://127.0.0.1:5000/simulate/email_update"
+    },
+    "data": {
+      "email": "sydabdull@student.iul.ac.in",
+      "password_masked": "*******",
+      "password_length": 7
+    }
+  },
+  {
+    "scenario": "bank",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:32:27.648148",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "bank",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T15:32:31.635459",
+      "referrer": "http://127.0.0.1:5000/simulate/bank"
+    },
+    "data": {
+      "email": "rsedgvdf",
+      "password_masked": "*******",
+      "password_length": 7
+    }
+  },
+  {
+    "scenario": "google",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T16:04:20.574999",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "google",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T16:04:44.408981",
+      "referrer": "http://127.0.0.1:5000/simulate/google"
+    },
+    "data": {
+      "email": "zgdrzh@gmail.com",
+      "password_masked": "*******",
+      "password_length": 7
+    }
+  },
+  {
+    "scenario": "bank",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T16:05:40.455804",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "bank",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T16:05:50.159230",
+      "referrer": "http://127.0.0.1:5000/simulate/bank"
+    },
+    "data": {
+      "email": "cgxgfdsxdgf",
+      "password_masked": "***********",
+      "password_length": 11
+    }
+  },
+  {
+    "scenario": "email_update",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T16:06:49.052899",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "email_update",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T16:07:01.612645",
+      "referrer": "http://127.0.0.1:5000/simulate/email_update"
+    },
+    "data": {
+      "email": "dxdfxhvgc@gmail.com",
+      "password_masked": "*********",
+      "password_length": 9
+    }
+  },
+  {
+    "scenario": "google",
+    "action": "warning_shown",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T16:07:34.865225",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "google",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T16:39:11.814928",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "google",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T16:39:26.262848",
+      "referrer": "http://127.0.0.1:5000/simulate/google"
+    },
+    "data": {
+      "email": "bvzjhvsvzch@gmail.com",
+      "password_masked": "*********",
+      "password_length": 9
+    }
+  },
+  {
+    "scenario": "bank",
+    "action": "page_visit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T16:40:17.316272",
+      "referrer": "http://127.0.0.1:5000/"
+    },
+    "data": {}
+  },
+  {
+    "scenario": "bank",
+    "action": "credential_submit",
+    "client": {
+      "ip": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "time": "2026-06-02T16:40:28.427642",
+      "referrer": "http://127.0.0.1:5000/simulate/bank"
+    },
+    "data": {
+      "email": "fbfjsdesg",
+      "password_masked": "*****",
+      "password_length": 5
+    }
+  }
+]
